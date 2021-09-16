@@ -17,10 +17,19 @@
   margin: auto;
 }
 
+.margine-superiore {
+  margin-top: 30px;
+}
+
+.margine-inferiore {
+  margin-bottom: 30px;
+}
+
 /* stili sezione superiore */
 
 header {
   height: 80px;
+  margin-top: 20px;
   background-color:fuchsia;
   
 }
@@ -40,7 +49,7 @@ header {
 
 /* float  */
 
-div {
+.menu, .contenuto, .widget {
   float: left;
  }
 
@@ -56,6 +65,7 @@ div {
 
 footer {
   height: 40px;
+  margin-bottom: 20px;
   background-color: rebeccapurple;
 }
 
