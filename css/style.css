@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  margin: 20px auto;
+}
+
+header {
+  height: 80px;
+  background-color:fuchsia;
+}
+
+div {
+ float: left;
+}
+
+.main-top {
+  min-height: 300px;
+  margin: 20px auto;
+  background-color: khaki;
+}
+
+.main-bottom {
+  min-height: 400px;
+  margin-bottom: 10px;
+  background-color:
+}
+
+footer {
+  height: 40px;
+  background-color: rebeccapurple;
+}
+
+.menu {
+  width: 20%;
+  min-height: 350px;
+  background-color: red;
+}
+
+.contenuto {
+  width: 60%;
+  min-height: 350px;
+  background-color: springgreen;
+}
+
+.widget {
+  width: 20%;
+  min-height: 350px;
+  background-color: yellow;
+}
