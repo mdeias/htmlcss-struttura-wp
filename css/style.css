@@ -1,3 +1,5 @@
+/* stili generali */
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -12,16 +14,15 @@
 
 .container {
   width: 70%;
-  margin: 20px auto;
+  margin: auto;
 }
+
+/* stili sezione superiore */
 
 header {
   height: 80px;
   background-color:fuchsia;
-}
-
-div {
- float: left;
+  
 }
 
 .main-top {
@@ -30,31 +31,53 @@ div {
   background-color: khaki;
 }
 
-.main-bottom {
-  min-height: 400px;
-  margin-bottom: 10px;
-  background-color:
+/* stili sezione centrale */
+
+.main-middle {
+  height: 50px;
+  background-color: lightblue;
 }
+
+/* float  */
+
+div {
+  float: left;
+ }
+
+ /* contenitore float  */
+
+.main-bottom {
+  min-height: 350px;
+  margin-bottom: 10px;
+  background-color: blue;
+}
+
+/* footer  */
 
 footer {
   height: 40px;
   background-color: rebeccapurple;
 }
 
+/* stili specifici float  */
+
 .menu {
-  width: 20%;
+  width: 19%;
+  margin: 1% auto;
   min-height: 350px;
-  background-color: red;
+  background-color: lightblue;
 }
 
 .contenuto {
   width: 60%;
+  margin: 1%;
   min-height: 350px;
-  background-color: springgreen;
+  background-color: lightblue;
 }
 
 .widget {
-  width: 20%;
+  width: 19%;
+  margin: 1% auto;
   min-height: 350px;
-  background-color: yellow;
+  background-color: lightblue;
 }
